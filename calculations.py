@@ -24,7 +24,11 @@ def matt_bobel_function(num1, num2, num3):
 # num1 - num2 - num3 
 # please return the result
 def anders_function(num1, num2, num3):
-    return num1 - num2 - num3
+    for x in range(0, num2):
+        num1 = num1 - 1
+    for x in range(0, num3):
+        num1 = num1 - 1
+    return num1
 
 # mcloving's function
 # this should take the input and then apply these steps
